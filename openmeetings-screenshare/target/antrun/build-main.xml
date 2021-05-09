@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project name="maven-antrun-" default="main">
+  <target name="main">
+    <copy file="/home/ibra/Projects/apache-openmeetings-5.1.0-src/openmeetings-screenshare/target/template.jnlp" tofile="/home/ibra/Projects/apache-openmeetings-5.1.0-src/openmeetings-screenshare/target/jnlp/APPLICATION.jnlp" force="true" overwrite="true" />
+  </target>
+</project>

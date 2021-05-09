@@ -1,0 +1,13 @@
+/home/ibra/Projects/apache-openmeetings-5.1.0-src/openmeetings-core/src/test/java/org/apache/openmeetings/rdc/TestReadKeyCodesNumber.java
+/home/ibra/Projects/apache-openmeetings-5.1.0-src/openmeetings-core/src/test/java/org/apache/openmeetings/rdc/TestKeyCodesNumber.java
+/home/ibra/Projects/apache-openmeetings-5.1.0-src/openmeetings-core/src/test/java/org/apache/openmeetings/core/remote/TestRecordingFlowMocked.java
+/home/ibra/Projects/apache-openmeetings-5.1.0-src/openmeetings-core/src/test/java/org/apache/openmeetings/TestConnection.java
+/home/ibra/Projects/apache-openmeetings-5.1.0-src/openmeetings-core/src/test/java/org/apache/openmeetings/core/util/TestStrongPasswordValidator.java
+/home/ibra/Projects/apache-openmeetings-5.1.0-src/openmeetings-core/src/test/java/org/apache/openmeetings/core/remote/TestNotConnectedMocked.java
+/home/ibra/Projects/apache-openmeetings-5.1.0-src/openmeetings-core/src/test/java/org/apache/openmeetings/gui/TestGui.java
+/home/ibra/Projects/apache-openmeetings-5.1.0-src/openmeetings-core/src/test/java/org/apache/openmeetings/core/remote/TestRoomFlowMocked.java
+/home/ibra/Projects/apache-openmeetings-5.1.0-src/openmeetings-core/src/test/java/org/apache/openmeetings/rdc/KeyCodesTest.java
+/home/ibra/Projects/apache-openmeetings-5.1.0-src/openmeetings-core/src/test/java/org/apache/openmeetings/core/remote/TestSetupFlowMocked.java
+/home/ibra/Projects/apache-openmeetings-5.1.0-src/openmeetings-core/src/test/java/org/apache/openmeetings/core/remote/BaseMockedTest.java
+/home/ibra/Projects/apache-openmeetings-5.1.0-src/openmeetings-core/src/test/java/org/apache/openmeetings/rdc/ReadKeyCodesTest.java
+/home/ibra/Projects/apache-openmeetings-5.1.0-src/openmeetings-core/src/test/java/org/apache/openmeetings/core/mail/TestMailSending.java

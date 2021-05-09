@@ -1,0 +1,25 @@
+// ------------------------------------------------------------------
+// Transitive dependencies of this project determined from the
+// maven pom organized by organization.
+// ------------------------------------------------------------------
+
+Openmeetings Screen Sharing applet
+
+
+From: 'QOS.ch' (http://www.qos.ch)
+  - Logback Classic Module (http://logback.qos.ch/logback-classic) ch.qos.logback:logback-classic:jar:1.2.3
+    License: Eclipse Public License - v 1.0  (http://www.eclipse.org/legal/epl-v10.html)    License: GNU Lesser General Public License  (http://www.gnu.org/licenses/old-licenses/lgpl-2.1.html)
+  - Logback Core Module (http://logback.qos.ch/logback-core) ch.qos.logback:logback-core:jar:1.2.3
+    License: Eclipse Public License - v 1.0  (http://www.eclipse.org/legal/epl-v10.html)    License: GNU Lesser General Public License  (http://www.gnu.org/licenses/old-licenses/lgpl-2.1.html)
+  - SLF4J API Module (http://www.slf4j.org) org.slf4j:slf4j-api:jar:1.7.30
+    License: MIT License  (http://www.opensource.org/licenses/mit-license.php)
+
+From: 'Spring IO' (https://spring.io/projects/spring-framework)
+  - Spring Core (https://github.com/spring-projects/spring-framework) org.springframework:spring-core:jar:5.3.1
+    License: Apache License, Version 2.0  (https://www.apache.org/licenses/LICENSE-2.0)
+  - Spring Commons Logging Bridge (https://github.com/spring-projects/spring-framework) org.springframework:spring-jcl:jar:5.3.1
+    License: Apache License, Version 2.0  (https://www.apache.org/licenses/LICENSE-2.0)
+
+
+
+

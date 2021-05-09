@@ -1,0 +1,53 @@
+
+*****************************************************
+Summary
+-------
+Generated at: 2021-02-07T21:58:49+02:00
+
+Notes: 0
+Binaries: 0
+Archives: 0
+Standards: 27
+
+Apache Licensed: 27
+Generated Documents: 0
+
+JavaDocs are generated, thus a license header is optional.
+Generated files do not require license headers.
+
+0 Unknown Licenses
+
+*****************************************************
+  Files with Apache License headers will be marked AL
+  Binary files (which do not require any license headers) will be marked B
+  Compressed archives will be marked A
+  Notices, licenses etc. will be marked N
+  AL    src/site/site.xml
+  AL    src/test/java/org/apache/openmeetings/backup/TestBackupVersion.java
+  AL    src/main/java/org/apache/openmeetings/installation/InstallationConfig.java
+  AL    src/main/java/org/apache/openmeetings/installation/InstallException.java
+  AL    src/main/java/org/apache/openmeetings/installation/ImportInitvalues.java
+  AL    src/main/java/org/apache/openmeetings/backup/BackupExport.java
+  AL    src/main/java/org/apache/openmeetings/backup/FileTree.java
+  AL    src/main/java/org/apache/openmeetings/backup/converter/WbConverter.java
+  AL    src/main/java/org/apache/openmeetings/backup/BackupImport.java
+  AL    src/main/java/org/apache/openmeetings/backup/BackupException.java
+  AL    src/main/java/org/apache/openmeetings/backup/ProgressHolder.java
+  AL    src/main/java/org/apache/openmeetings/backup/BackupVersion.java
+  AL    src/main/java/org/apache/openmeetings/cli/OraclePatcher.java
+  AL    src/main/java/org/apache/openmeetings/cli/OmOption.java
+  AL    src/main/java/org/apache/openmeetings/cli/H2Patcher.java
+  AL    src/main/java/org/apache/openmeetings/cli/OmHelpFormatter.java
+  AL    src/main/java/org/apache/openmeetings/cli/Admin.java
+  AL    src/main/java/org/apache/openmeetings/cli/MssqlPatcher.java
+  AL    src/main/java/org/apache/openmeetings/cli/ExitException.java
+  AL    src/main/java/org/apache/openmeetings/cli/CleanupUnit.java
+  AL    src/main/java/org/apache/openmeetings/cli/Db2Patcher.java
+  AL    src/main/java/org/apache/openmeetings/cli/CleanupHelper.java
+  AL    src/main/java/org/apache/openmeetings/cli/ConnectionPropertiesPatcher.java
+  AL    src/main/java/org/apache/openmeetings/cli/CleanupEntityUnit.java
+  AL    src/main/java/org/apache/openmeetings/cli/PostgresPatcher.java
+  AL    src/main/java/org/apache/openmeetings/cli/MysqlPatcher.java
+  AL    pom.xml
+ 
+*****************************************************

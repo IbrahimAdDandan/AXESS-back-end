@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/openmeetings-core/openmeetings-core.iml" filepath="$PROJECT_DIR$/openmeetings-core/openmeetings-core.iml" />
+      <module fileurl="file://$PROJECT_DIR$/openmeetings-db/openmeetings-db.iml" filepath="$PROJECT_DIR$/openmeetings-db/openmeetings-db.iml" />
+      <module fileurl="file://$PROJECT_DIR$/openmeetings-install/openmeetings-install.iml" filepath="$PROJECT_DIR$/openmeetings-install/openmeetings-install.iml" />
+      <module fileurl="file://$PROJECT_DIR$/openmeetings-parent.iml" filepath="$PROJECT_DIR$/openmeetings-parent.iml" />
+      <module fileurl="file://$PROJECT_DIR$/openmeetings-screenshare/openmeetings-screenshare.iml" filepath="$PROJECT_DIR$/openmeetings-screenshare/openmeetings-screenshare.iml" />
+      <module fileurl="file://$PROJECT_DIR$/openmeetings-server/openmeetings-server.iml" filepath="$PROJECT_DIR$/openmeetings-server/openmeetings-server.iml" />
+      <module fileurl="file://$PROJECT_DIR$/openmeetings-service/openmeetings-service.iml" filepath="$PROJECT_DIR$/openmeetings-service/openmeetings-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/openmeetings-util/openmeetings-util.iml" filepath="$PROJECT_DIR$/openmeetings-util/openmeetings-util.iml" />
+      <module fileurl="file://$PROJECT_DIR$/openmeetings-web/openmeetings-web.iml" filepath="$PROJECT_DIR$/openmeetings-web/openmeetings-web.iml" />
+      <module fileurl="file://$PROJECT_DIR$/openmeetings-webservice/openmeetings-webservice.iml" filepath="$PROJECT_DIR$/openmeetings-webservice/openmeetings-webservice.iml" />
+    </modules>
+  </component>
+</project>

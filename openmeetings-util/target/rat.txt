@@ -1,0 +1,67 @@
+
+*****************************************************
+Summary
+-------
+Generated at: 2021-02-07T22:02:06+02:00
+
+Notes: 0
+Binaries: 0
+Archives: 2
+Standards: 33
+
+Apache Licensed: 33
+Generated Documents: 0
+
+JavaDocs are generated, thus a license header is optional.
+Generated files do not require license headers.
+
+0 Unknown Licenses
+
+Archives:
+
+ + src/test/resources/ODFtest.odt
+ 
+ + src/test/resources/ODStest.ods
+ 
+*****************************************************
+  Files with Apache License headers will be marked AL
+  Binary files (which do not require any license headers) will be marked B
+  Compressed archives will be marked A
+  Notices, licenses etc. will be marked N
+  AL    src/site/site.xml
+  AL    src/test/java/org/apache/openmeetings/util/TestStoredFile.java
+  AL    src/test/java/org/apache/openmeetings/util/TestCalendarPatterns.java
+  AL    src/test/java/org/apache/openmeetings/util/TestVersion.java
+  AL    src/test/java/org/apache/openmeetings/util/crypt/AbstractCryptTest.java
+  AL    src/test/java/org/apache/openmeetings/util/crypt/TestSCrypt.java
+  AL    src/test/java/org/apache/openmeetings/test/NonJenkinsTests.java
+  A     src/test/resources/ODFtest.odt
+  A     src/test/resources/ODStest.ods
+  AL    src/main/java/org/apache/openmeetings/util/OMContextListener.java
+  AL    src/main/java/org/apache/openmeetings/util/XmlExport.java
+  AL    src/main/java/org/apache/openmeetings/util/ConnectionProperties.java
+  AL    src/main/java/org/apache/openmeetings/util/ImportHelper.java
+  AL    src/main/java/org/apache/openmeetings/util/process/ProcessResult.java
+  AL    src/main/java/org/apache/openmeetings/util/process/ProcessHelper.java
+  AL    src/main/java/org/apache/openmeetings/util/process/ProcessResultList.java
+  AL    src/main/java/org/apache/openmeetings/util/mail/IcalHandler.java
+  AL    src/main/java/org/apache/openmeetings/util/mail/MailUtil.java
+  AL    src/main/java/org/apache/openmeetings/util/mail/ByteArrayDataSource.java
+  AL    src/main/java/org/apache/openmeetings/util/crypt/SHA256Implementation.java
+  AL    src/main/java/org/apache/openmeetings/util/crypt/CryptProvider.java
+  AL    src/main/java/org/apache/openmeetings/util/crypt/ICrypt.java
+  AL    src/main/java/org/apache/openmeetings/util/crypt/SCryptImplementation.java
+  AL    src/main/java/org/apache/openmeetings/util/ws/IClusterWsMessage.java
+  AL    src/main/java/org/apache/openmeetings/util/CalendarHelper.java
+  AL    src/main/java/org/apache/openmeetings/util/Version.java
+  AL    src/main/java/org/apache/openmeetings/util/OpenmeetingsVariables.java
+  AL    src/main/java/org/apache/openmeetings/util/NullStringer.java
+  AL    src/main/java/org/apache/openmeetings/util/CalendarPatterns.java
+  AL    src/main/java/org/apache/openmeetings/util/OmException.java
+  AL    src/main/java/org/apache/openmeetings/util/OmFileHelper.java
+  AL    src/main/java/org/apache/openmeetings/util/StoredFile.java
+  AL    src/main/resources/org/apache/tika/mime/custom-mimetypes.xml
+  AL    src/main/resources/org/apache/openmeetings/util/version.properties
+  AL    pom.xml
+ 
+*****************************************************

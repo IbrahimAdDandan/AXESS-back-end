@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="openmeetings-web" />
+        <module name="openmeetings-server" />
+        <module name="openmeetings-webservice" />
+        <module name="openmeetings-util" />
+        <module name="openmeetings-core" />
+        <module name="openmeetings-service" />
+        <module name="openmeetings-screenshare" />
+        <module name="openmeetings-install" />
+        <module name="openmeetings-db" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="openmeetings-core" target="11" />
+      <module name="openmeetings-db" target="11" />
+      <module name="openmeetings-install" target="11" />
+      <module name="openmeetings-parent" target="1.7" />
+      <module name="openmeetings-screenshare" target="11" />
+      <module name="openmeetings-server" target="11" />
+      <module name="openmeetings-service" target="11" />
+      <module name="openmeetings-util" target="11" />
+      <module name="openmeetings-web" target="11" />
+      <module name="openmeetings-webservice" target="11" />
+    </bytecodeTargetLevel>
+  </component>
+</project>

@@ -1,0 +1,79 @@
+
+*****************************************************
+Summary
+-------
+Generated at: 2021-02-08T19:19:46+02:00
+
+Notes: 0
+Binaries: 0
+Archives: 0
+Standards: 53
+
+Apache Licensed: 53
+Generated Documents: 0
+
+JavaDocs are generated, thus a license header is optional.
+Generated files do not require license headers.
+
+0 Unknown Licenses
+
+*****************************************************
+  Files with Apache License headers will be marked AL
+  Binary files (which do not require any license headers) will be marked B
+  Compressed archives will be marked A
+  Notices, licenses etc. will be marked N
+  AL    src/site/site.xml
+  AL    src/test/java/org/apache/openmeetings/gui/TestGui.java
+  AL    src/test/java/org/apache/openmeetings/rdc/TestKeyCodesNumber.java
+  AL    src/test/java/org/apache/openmeetings/rdc/ReadKeyCodesTest.java
+  AL    src/test/java/org/apache/openmeetings/rdc/KeyCodesTest.java
+  AL    src/test/java/org/apache/openmeetings/rdc/TestReadKeyCodesNumber.java
+  AL    src/test/java/org/apache/openmeetings/TestConnection.java
+  AL    src/test/java/org/apache/openmeetings/core/util/TestStrongPasswordValidator.java
+  AL    src/test/java/org/apache/openmeetings/core/mail/TestMailSending.java
+  AL    src/test/java/org/apache/openmeetings/core/remote/TestNotConnectedMocked.java
+  AL    src/test/java/org/apache/openmeetings/core/remote/TestRecordingFlowMocked.java
+  AL    src/test/java/org/apache/openmeetings/core/remote/TestSetupFlowMocked.java
+  AL    src/test/java/org/apache/openmeetings/core/remote/TestRoomFlowMocked.java
+  AL    src/test/java/org/apache/openmeetings/core/remote/BaseMockedTest.java
+  AL    src/main/java/org/apache/openmeetings/core/documents/LibraryChartLoader.java
+  AL    src/main/java/org/apache/openmeetings/core/ldap/LdapOptions.java
+  AL    src/main/java/org/apache/openmeetings/core/ldap/LdapLoginManager.java
+  AL    src/main/java/org/apache/openmeetings/core/util/StrongPasswordValidator.java
+  AL    src/main/java/org/apache/openmeetings/core/util/ws/WsMessageAll.java
+  AL    src/main/java/org/apache/openmeetings/core/util/ws/WsMessageUser.java
+  AL    src/main/java/org/apache/openmeetings/core/util/ws/WsMessageRoom.java
+  AL    src/main/java/org/apache/openmeetings/core/util/ws/WsMessageRoomOthers.java
+  AL    src/main/java/org/apache/openmeetings/core/util/ws/WsMessageChat.java
+  AL    src/main/java/org/apache/openmeetings/core/util/ws/WsMessageRoomMsg.java
+  AL    src/main/java/org/apache/openmeetings/core/util/ws/WsMessageChat2All.java
+  AL    src/main/java/org/apache/openmeetings/core/util/ws/WsMessageChat2User.java
+  AL    src/main/java/org/apache/openmeetings/core/util/ChatWebSocketHelper.java
+  AL    src/main/java/org/apache/openmeetings/core/util/WebSocketHelper.java
+  AL    src/main/java/org/apache/openmeetings/core/converter/ConversionException.java
+  AL    src/main/java/org/apache/openmeetings/core/converter/BaseConverter.java
+  AL    src/main/java/org/apache/openmeetings/core/converter/InterviewConverter.java
+  AL    src/main/java/org/apache/openmeetings/core/converter/DocumentConverter.java
+  AL    src/main/java/org/apache/openmeetings/core/converter/VideoConverter.java
+  AL    src/main/java/org/apache/openmeetings/core/converter/IRecordingConverter.java
+  AL    src/main/java/org/apache/openmeetings/core/converter/ImageConverter.java
+  AL    src/main/java/org/apache/openmeetings/core/converter/RecordingConverter.java
+  AL    src/main/java/org/apache/openmeetings/core/sip/SipManager.java
+  AL    src/main/java/org/apache/openmeetings/core/sip/SipStackProcessor.java
+  AL    src/main/java/org/apache/openmeetings/core/sip/ISipCallbacks.java
+  AL    src/main/java/org/apache/openmeetings/core/mail/MailHandler.java
+  AL    src/main/java/org/apache/openmeetings/core/data/file/FileProcessor.java
+  AL    src/main/java/org/apache/openmeetings/core/rss/LoadAtomRssFeed.java
+  AL    src/main/java/org/apache/openmeetings/core/remote/KRoom.java
+  AL    src/main/java/org/apache/openmeetings/core/remote/KurentoHandler.java
+  AL    src/main/java/org/apache/openmeetings/core/remote/AbstractStream.java
+  AL    src/main/java/org/apache/openmeetings/core/remote/IStreamProcessor.java
+  AL    src/main/java/org/apache/openmeetings/core/remote/TestStreamProcessor.java
+  AL    src/main/java/org/apache/openmeetings/core/remote/KTestStream.java
+  AL    src/main/java/org/apache/openmeetings/core/remote/StreamProcessor.java
+  AL    src/main/java/org/apache/openmeetings/core/remote/KStream.java
+  AL    src/main/java/org/apache/openmeetings/core/notifier/INotifier.java
+  AL    src/main/java/org/apache/openmeetings/core/notifier/NotifierService.java
+  AL    pom.xml
+ 
+*****************************************************

@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+   Licensed under the Apache License, Version 2.0 (the "License");
+   you may not use this file except in compliance with the License.
+   You may obtain a copy of the License at
+
+       http://www.apache.org/licenses/LICENSE-2.0
+
+   Unless required by applicable law or agreed to in writing, software
+   distributed under the License is distributed on an "AS IS" BASIS,
+   WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+   See the License for the specific language governing permissions and
+   limitations under the License.
+ -->
+<document xmlns="http://maven.apache.org/XDOC/2.0"
+		xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+		xsi:schemaLocation="http://maven.apache.org/XDOC/2.0 http://maven.apache.org/xsd/xdoc-2.0.xsd">
+	<properties>
+		<title>Webapp Name / Path</title>
+		<author email="dev@openmeetings.apache.org">Apache OpenMeetings Team</author>
+	</properties>
+	<body>
+		<section name="Customize Openmeetings logo">
+			<p>If you want to set up your logo in Openmeetings header you can do the following:</p>
+			<ol>
+				<li>create your logo image as PNG 40px height</li>
+				<li>replace <tt>/opt/om/webapps/openmeetings/css/images/logo.png</tt> with your logo file</li>
+			</ol>
+		</section>
+		<section name="Renaming /openmeetings context">
+			<p>
+				If you want to have
+				<tt>https://yourcorp.com:5443/yourmeetings</tt>
+				instead of
+				<tt>https://yourcorp.com:5443/openmeetings</tt>
+				you need to do the following
+			</p>
+			<ol>
+				<li>stop openmmetings if it is running </li>
+				<li>
+					go to openmeetings install dir (for ex. <tt>/opt/om</tt>)
+				</li>
+				<li>
+					rename <tt>/opt/om/webapps/openmeetings</tt> to <tt>/opt/om/webapps/yourmeetings</tt>
+					(for ex. <tt>mv /opt/om/webapps/openmeetings /opt/om/webapps/yourmeetings</tt>)
+				</li>
+				<li>
+					open <tt>/opt/om/webapps/root/index.html</tt>
+					using your favorite text editor (for ex. <tt>vim /opt/om/webapps/root/index.html</tt>)
+					<ul>
+						<li>
+							find and modify <tt>&lt;meta http-equiv="REFRESH" content="0;url=openmeetings/"&gt;</tt>
+							to be <tt>&lt;meta http-equiv="REFRESH" content="0;url=<strong>yourmeetings/</strong>"&gt;</tt>
+						</li>
+					</ul>
+				</li>
+			</ol>
+			<p>That's it</p>
+		</section>
+		<section name="Changing hard-coded application name in string labels">
+			<p>
+				To have
+				<i>Your Application Name</i>
+				instead of
+				<i>Openmeetings</i>
+				in
+				<strong>all</strong>
+				text labels you need to do the following
+			</p>
+			<ol>
+				<li>
+					ensure
+					<strong>
+						<tt>{0}</tt>
+					</strong>
+					placeholder is used in
+					<i>all</i>
+					strings you have added and/or modified (all strings bundled into
+					Openmeetings already have this placeholder)
+				</li>
+				<li>login to Openmeetings as user with administrator privileges </li>
+				<li>
+					go to
+					<tt>Administration -&gt; Configuration</tt>
+				</li>
+				<li>
+					find and edit configuration with name
+					<strong>
+						<tt>application.name</tt>
+					</strong>
+				</li>
+				<li>
+					Set its value to be
+					<i>
+						<tt>Your Application Name</tt>
+					</i>
+				</li>
+				<li>
+					<tt>Save</tt>
+				</li>
+				<li>reload page or relogin </li>
+			</ol>
+			<p>
+			All string will display
+			<i>
+				<tt>Your Application Name</tt>
+			</i>
+			in place of
+			<i>
+				<tt>Openmeetings</tt>
+			</i>
+			</p>
+		</section>
+		<section name="Running multiple Openmeetings instances on the same server">
+			<p>
+				If you want to run multiple Openmeetings instances on the same server i.e. to have<br/>
+				<tt>https://yourcorp.com:5443/openmeetings1</tt><br/>
+				<tt>https://yourcorp.com:5443/openmeetings2</tt><br/> etc.<br/> you need to do the following:
+			</p>
+		</section>
+	</body>
+</document>

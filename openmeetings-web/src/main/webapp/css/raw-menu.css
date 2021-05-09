@@ -1,0 +1,60 @@
+/* Licensed under the Apache License, Version 2.0 (the "License") http://www.apache.org/licenses/LICENSE-2.0 */
+#menu .navbar {
+	padding-top: 0;
+	padding-bottom: 0;
+}
+.room-block .menu .top.exit {
+	padding-left: 0;
+}
+.room-block .menu .details {
+	position: absolute;
+	top: 0;
+	margin-right: 5px;
+	right: 0;
+	display: inline-block;
+	z-index: calc(var(--menu-zindex) + 1);
+}
+.room-block .menu .details .room {
+	float: right;
+	padding-top: 5px;
+	padding-right: 5px;
+}
+.room-block .menu .details .room.name {
+	font-weight: bold;
+}
+.room-block .menu .details .room.name.screen {
+	color: var(--danger);
+}
+.room-block .menu .details .icon {
+	width: 30px;
+	height: 30px;
+	background-repeat: no-repeat;
+	background-position: 5px 5px;
+	background-size: 22px;
+	float: right;
+	padding: 0;
+}
+.room-block .menu .details .detail-btn {
+	padding: 0.1rem 0.4rem;
+	float: right;
+	position: relative;
+}
+.room-block .menu .details .detail-btn i::before {
+	font-size: 2.0em;
+	line-height: 1.2em;
+}
+.room-block .menu .details .detail-btn.shared {
+	display: none;
+}
+.room-block .menu .details .detail-btn i.add-on {
+	position: absolute;
+	left: 5px;
+	color: var(--warning);
+	bottom:  0;
+}
+.room-block .menu .details .icon .profile {
+	margin-top: 3px;
+}
+.room-block .menu .details .icon .profile img {
+	width: 28px;
+}

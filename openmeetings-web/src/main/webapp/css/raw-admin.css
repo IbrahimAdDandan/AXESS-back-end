@@ -1,0 +1,103 @@
+/* Licensed under the Apache License, Version 2.0 (the "License") http://www.apache.org/licenses/LICENSE-2.0 */
+.adminPanel {
+	min-width: 1070px;
+	display: flex;
+	height: 100%;
+}
+.adminPanel .feedback {
+	position: absolute;
+	right: 10px;
+}
+.adminNav {
+	height: var(--nav-height);
+}
+.adminNav .goto {
+	text-overflow: ellipsis;
+	max-width: 25px;
+	overflow: hidden;
+	display: inline-block; 
+}
+.adminPanelColumnTable {
+	display: inline-block;
+	vertical-align: top;
+	height: 100%;
+	min-width: var(--list-width);
+}
+.adminPanelColumnTable.label .lblNav {
+	height: var(--lbl-nav-height);
+}
+.adminPanelColumnForm {
+	display: inline-block;
+	vertical-align: top;
+	padding-left: 5px;
+	height: calc(100% - var(--buffer-size));
+	min-width: 450px;
+}
+.adminPanelColumnForm .adminForm {
+	height: 100%;
+}
+.adminPanelColumnForm .adminForm .actions {
+	height: var(--actions-height);
+	padding-top: 5px;
+}
+.adminPanelColumnForm div.scrollcontent {
+	height: calc(100% - var(--actions-height));
+	vertical-align: top;
+	overflow-y: auto;
+}
+.adminForm legend, .installer legend {
+	padding: 0.5em 1em;
+	font-style: italic;
+	text-align: right;
+}
+.adminForm .group.logo .profile img {
+	height: 16px;
+	width: auto;
+}
+.adminBackupForm div.formelement {
+	display: block;
+	clear: both;
+	max-width: 1240px;
+}
+.adminFormsFeedbackPanel {
+	position: fixed;
+	left:550px;
+	width: 480px;
+	bottom: 16px;
+	z-index:999;
+}
+.adminForm .newItem {
+	padding-left: 25px;
+	background-image: url(images/new.png);
+	background-repeat: no-repeat;
+	background-position: 5px;
+}
+.onoffswitch {
+	display:inline-block;
+}
+.onoffswitch .onoff-checkbox {
+	display: none !important;
+}
+.onoff-label {
+	margin: 0;
+}
+.onoff-label::before {
+	font-family: 'Font Awesome 5 Free';
+	font-weight: 900;
+	font-size: 2.2em;
+}
+.onoff-checkbox + .onoff-label::before {
+	content: '\f204';
+	color: var(--danger);
+}
+.onoff-checkbox:checked + .onoff-label::before {
+	content: '\f205';
+	color: var(--success);
+}
+.addLanguagePanel select {
+	padding: 0px 0px;
+	border: solid 1px #aacfe4;
+	width: 140px;
+	font-size: 12px;
+	margin-left: 2px;
+}

@@ -1,6 +1,0 @@
-org/apache/openmeetings/test/NonJenkinsTests.class
-org/apache/openmeetings/util/TestCalendarPatterns.class
-org/apache/openmeetings/util/TestStoredFile.class
-org/apache/openmeetings/util/crypt/AbstractCryptTest.class
-org/apache/openmeetings/util/TestVersion.class
-org/apache/openmeetings/util/crypt/TestSCrypt.class
